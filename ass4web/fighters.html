@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Fighters Rankings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Top UFC Fighters</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trainings.html">Training List</a></li>
+                <li><a href="contact.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="fighter-rankings">
+        <h2>Sort Fighter Ratings</h2>
+        <input type="text" id="ratingInput" placeholder="Enter ratings separated by commas">
+        <button onclick="sortRatings('asc')">Sort Ascending</button>
+        <button onclick="sortRatings('desc')">Sort Descending</button>
+        <p id="sortedRatings"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 UFC Interactive Experience. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
